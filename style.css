@@ -1,0 +1,18 @@
+html{
+    background-image: url('http://media.harrypotter.bloomsbury.com/rep/g/page-background%20-%20grid.png');
+    text-align: center;
+    font-family: fantasy;
+}
+a{
+    color: white;
+}
+a:hover{
+    color: aquamarine;
+}
+ul{
+    list-style-type: none;
+}
+h1{
+    color: #20ffe4;
+}
+/* Start http://www.cursors-4u.com */ body, a:hover {cursor: url(http://cur.cursors-4u.net/user/use-1/use160.cur), progress !important;} /* End http://www.cursors-4u.com */

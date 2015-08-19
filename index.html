@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+    <html ng-app="twitterApp">
+    <head>
+        <title>Group Angular Challenge</title>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.2/angular.min.js" type="text/javascript"></script>
+        <script src="app.js" type="text/javascript"></script>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://bloggerxtutorials.googlecode.com/files/purplesparkle-min.js" type="text/javascript"></script>
+    </head>
+    <body ng-controller="MyController">
+        <h1>Hogwart's Handles</h1>
+
+
+        <ul>
+            <li ng-repeat="twitterHandle in twitterHandleList track by $index"><a href="http://twitter.com/{{twitterHandle}}" target="_blank">@{{twitterHandle}}</a></li>
+        </ul>
+        <!--<ul>-->
+            <!--<li ng-repeat="item in list track by $index">{{item}}</li>-->
+        <!--</ul>-->
+
+
+    </body>
+</html>
